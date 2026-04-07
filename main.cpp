@@ -1,4 +1,5 @@
 #include "raylib.h"
+#include <cstdlib>
 
 int main() {
     // iniciar la pantalla
@@ -50,5 +51,5 @@ int main() {
     }
 
     CloseWindow();
-    return 0;
+    return EXIT_SUCCESS; // Retorna éxito de manera más clara que el "0"
 }
